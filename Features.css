@@ -1,0 +1,83 @@
+.plugin-section {
+    background-color: #090518;
+    color: #EEE5FF;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.plugin-section h2 {
+    font-family: "Sora", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: "Sora", Sans-serif;
+    font-size: 1rem;
+    color: #EEE5FFBD;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 25rem;
+    height: 25rem;
+    margin: 10px;
+    background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+    background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+    border-radius: 20px;
+    color: #EEE5FFBD;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF10;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-body {
+    padding: 34px;
+}
+
+
+
+.card-text {
+    font-family: "Sora", Sans-serif;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-img {
+
+
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-right: 180px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 179px;
+    }
+
+    .card {
+        width: 80%;
+
+    }
+}

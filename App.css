@@ -1,0 +1,34 @@
+.logo img {
+  height: 20px;
+  margin-left: 27px;
+}
+
+.buyNow {
+  background-color: #82b440;
+  color: white;
+  border: none;
+  margin-right: 27px;
+}
+
+.navbar-custom {
+
+  background-color: #262626;
+
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Sora', sans-serif;
+}
+
+.navbar-custom .logo-text {
+  display: inline;
+}
+
+.navbar-custom .logo-text .evanto {
+  color: white;
+}
+
+.navbar-custom .logo-text .market {
+  color: #82b440;
+}

@@ -1,0 +1,53 @@
+.card-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #090518;
+
+    color: white;
+}
+
+.card {
+    width: '70rem';
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.browsers-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card-title {
+    color: #EEE5FF;
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+.align {
+    text-align: center;
+    color: #EEE5FFBD;
+    font-family: "Sora", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 6px;
+
+
+
+}
+
+.card-body {
+    padding: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 20rem;
+        /* Adjust the width as needed */
+    }
+}
